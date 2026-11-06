@@ -1,0 +1,5 @@
+{
+  "name": "ChurnGuard Modular ML Platform",
+  "description": "Enterprise customer churn telemetry and predictive machine learning platform powered by the trained Telco Customer Churn Scikit-Learn pipeline (churnguard_model.pkl), model benchmark insights (model_comparison.csv), and notebook analytics.",
+  "requestFramePermissions": []
+}
