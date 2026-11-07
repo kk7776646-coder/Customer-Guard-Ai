@@ -299,7 +299,7 @@ The Blueprint describes the deployment configuration in the repository; it does 
 
 ## Author
 
-**GitHub:** [@kk7776646-coder](https://github.com/kk7776646-coder)
+Kalamuddin Khan
 
 ---
 
