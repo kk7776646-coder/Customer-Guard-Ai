@@ -287,14 +287,6 @@ The Node service is configured with `NODE_ENV=production` and `PORT=3000`. The f
 
 The Blueprint describes the deployment configuration in the repository; it does not by itself confirm the current operational status of each Render service. Use the Live Demo link at the top of this document to open the application.
 
-## Screenshots
-
-Screenshots are not currently included in the repository. Add verified image files and replace the placeholders below when screenshots are available.
-
-- **Dashboard:** `[Screenshot to be added]`
-- **Customer risk calculator:** `[Screenshot to be added]`
-- **Customer analytics:** `[Screenshot to be added]`
-- **Model comparison:** `[Screenshot to be added]`
 
 ## Future Improvements
 
