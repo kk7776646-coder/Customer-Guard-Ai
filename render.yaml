@@ -1,8 +1,7 @@
-# Render Blueprint (render.yaml) for Clario Frontend & Backend Deployment
-# Backend Service URL: https://customer-guard-ai.onrender.com
+# Render Blueprint (render.yaml) for Clario Frontend & Full-Stack Deployment
 
 services:
-  # 1. Backend Web Service (customer-guard-ai)
+  # Option A: Full-Stack Web Service (Node.js API + Static Assets)
   - type: web
     name: customer-guard-ai
     runtime: node
@@ -15,18 +14,12 @@ services:
         value: production
       - key: PORT
         value: 3000
-      - key: VITE_API_BASE_URL
-        value: https://customer-guard-ai.onrender.com
 
-  # 2. Frontend Static Site (clario-frontend)
-  - type: web
+  # Option B: Frontend Static Site Only (Vite SPA)
+  - type: static
     name: clario-frontend
-    runtime: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
-    envVars:
-      - key: VITE_API_BASE_URL
-        value: https://customer-guard-ai.onrender.com
     routes:
       - type: rewrite
         source: /*
