@@ -7,7 +7,6 @@ Clario is a customer intelligence dashboard for exploring customer data, estimat
 ## Live Application
 
 - **Live Demo:** [https://customer-guard-ai-1.onrender.com](https://customer-guard-ai-1.onrender.com)
-- **GitHub Repository:** [https://github.com/kk7776646-coder/Customer-Guard-Ai](https://github.com/kk7776646-coder/Customer-Guard-Ai)
 
 ## Project Overview
 
