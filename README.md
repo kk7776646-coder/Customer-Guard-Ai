@@ -1,4 +1,4 @@
-# Clario — AI-Powered Customer Churn Prediction Platform
+# Clario — A Customer Churn Prediction Platform
 
 Clario is a customer intelligence dashboard for exploring customer data, estimating churn risk, and reviewing retention insights. The repository contains a React/TypeScript frontend, an Express API, a TypeScript-based prediction calculation, and Supabase authentication/profile integration.
 
